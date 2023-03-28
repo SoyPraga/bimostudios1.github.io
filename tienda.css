@@ -1,0 +1,275 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    box-sizing: border-box;
+
+}
+
+body {
+    text-align: center;
+    font-family: sans-serif;
+    background: rgb(214, 211, 211);
+}
+
+.price {
+    background: url(img/estudio1.jpg) no-repeat center;
+    background-attachment: fixed;
+    background-size: cover;
+    text-align: center;
+}
+
+.head {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 63px;
+    background: #171717;
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+}
+
+
+.navbar {
+    display: flex;
+    margin-right: 10px;
+}
+
+.navbar a {
+    display: block;
+    padding: 20px 20px;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+.navbar a:hover {
+    background: #3f3f3f;
+}
+
+.logo {
+    margin-left: 30px;
+}
+
+.logo a {
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header {
+    height: 60vh !important;
+    background: url(IMG/ladrillosnegros.jpg) no-repeat center;
+    background-size: cover;
+}
+
+/* .container{
+
+    width: 100%;
+    display: flex;
+    max-width: 1100px;
+    margin: auto;
+    padding-top: 100px;
+}
+
+.card{
+
+width: 100%;
+margin: 20px;
+border-radius: 6px;
+overflow: hidden;
+background: #fff;
+box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.2);
+cursor: default;
+transition: all 400ms ease;
+justify-content: center;
+
+
+
+}
+
+.card:hover{
+
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.4);
+    transform: translateY(-3%);
+
+}
+
+.card img{
+
+    width: 100%;
+    height: 210px;
+
+}
+
+.card .contenido{
+
+    padding: 15px;
+text-align: center;
+
+
+}
+
+
+.card .contenido p{
+
+line-height: 1.5;
+color: #6a6a6a;
+
+
+}
+.card .contenido h3{
+
+font-weight: 400;
+margin-bottom: 15px;
+
+}
+
+.card .contenido a{
+
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px;
+    margin-top: 10px;
+    color: #060e0f;
+    border: 1px solid #060909;
+    border-radius: 4px;
+    transition: all 400ms ease;
+
+
+}
+
+.card .contenido a:hover{
+
+background: #020505;
+color: #fff;
+
+
+} */
+
+.card {
+
+display: flex;
+justify-content: center;
+align-items: center;
+width: 600px;
+height: 380px;
+background-color: #fff;
+box-shadow: 0 15px 45px rgba(0, 0, 0 , 0.25);
+overflow: hidden;
+margin-left: 250px;
+margin-top: 100px;
+}
+
+.card .imgBox{
+
+position: relative;
+min-width: 250px;
+width: 250px;
+height: 100%;
+display: flex;
+justify-content: center;
+align-items: center;
+transition: 0.5s;
+}
+
+.card:hover .imgBox{
+
+transform: rotate(-35deg);
+}
+.card .imgBox{
+width: 85%;
+
+
+}
+.card .details{
+position: relative;
+min-height: 300px;
+background: #4ba9e9;
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+width: 100%;
+height: 100%;
+padding: 20px;
+}
+
+.card .details .title small{
+font-weight: 200;
+font-size: 0.8em;
+}
+
+.card .details h4{
+    font-size: 0.9em;
+}
+
+.card .details .description p {
+    font-size: 0.9em;
+    font-weight: 200;
+}
+.card .details .size ul{
+
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.card .details .size ul li{
+list-style: none;
+display: flex;
+justify-content: center;
+align-items: center;
+font-size: 0.8em;
+border: solid 1px #fff;
+padding: 0.6em;
+
+}
+
+.card .details .size ul li:hover{
+background-color: #fff;
+color: #4ba9e9;
+}
+
+.card .details .buy{
+    display: flex;  
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.card .details .buy .price{
+    font-size: 1.6em;
+}
+
+.card .details .buy .btn{
+background: #fff;
+padding: 0.5em 0.8em;
+text-transform: uppercase;
+
+
+}
+
+.card .details .buy .btn a {
+    text-decoration: none;
+    color: #4ba9e9;
+
+}
+
+.details{
+    color: #fff;
+}
+
+.price{
+    background: none;
+}
